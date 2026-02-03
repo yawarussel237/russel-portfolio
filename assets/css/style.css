@@ -1,65 +1,74 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-.desktop_menu{
-    display: none;
-}
-header{
-    display: flex;
-    padding: 10px;
-    justify-content: space-between;
-}
-header a{
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: bold;
-    color: #36b37e;
-}
-.mobile_menu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    flex-direction: column;
-}
-.mobile_menu p{
-    background-color: black;
-    padding: 2px 15px ;
-    color: #172b4d;
-}
-.home{
-    background-image: url(../images/background.png);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding: 120px 0;
-}
-.home h1{
-    font-size: 45px;
-    font-weight: 700;
-    color: #172b4d;
-    text-align: center;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.home h1 span{
-    color: #36b37e;
+.desktop_menu {
+  display: none;
 }
-.home p{
-    font-size: 26px;
-    color: #172b4d;
-    text-align: center;
-}
-.home ul{
-    display: flex;
-    gap: 20px;
-    list-style: none;
-}
-.home ul li a img{
-    width: 20px;
 
+header {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  color: #36b37e;
+}
+
+.mobile_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.mobile_menu p {
+  background-color: black;
+  padding: 2px 15px;
+  color: #172b4d;
+}
+
+.home {
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 120px 0;
+}
+
+.home h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #172b4d;
+  text-align: center;
+}
+
+.home h1 span {
+  color: #36b37e;
+}
+
+.home p {
+  font-size: 26px;
+  color: #172b4d;
+  text-align: center;
+}
+
+.home ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.home ul li a img {
+  width: 20px;
 }
