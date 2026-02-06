@@ -72,3 +72,223 @@ header a {
 .home ul li a img {
   width: 20px;
 }
+/*MOBIL PROJECTS STYLING*/
+.project{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  padding: 20px  0;
+}
+.project_headind{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 90px;
+  text-align: center;
+  gap: 10px ;
+}
+.project_headind h2{
+  font-size: 40px;
+  font-weight: 700;
+
+}
+.project_headind p{
+  padding: 1px 15px;
+  background-color: #36b37e;
+}
+.project_cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px ;
+}
+.project_card{
+  width: 327px;
+  height: 474px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #3A4A42;
+  gap: 30px; 
+}
+.project_cards img{
+height: 252px; 
+width: 327px;
+border-radius: 8px;
+background-color:  #ebf0ee;
+}
+.project_cards h3{
+  font-size: 26px;
+  color: #3A4A42;
+  text-align: center;
+}
+.project_card ul{
+  display: flex;
+  gap: 17px;
+  list-style: none;
+}
+.project_card ul li{
+  background-color: #ebf0ee;
+  padding: 5px 6px;
+  font-size: 16px; 
+}
+.project_card button{
+  background-color: #36b37e;
+  color:#fff;
+  border: none;
+  padding: 7px 8px;
+  font-size: 18px;
+}
+.About{
+  background: url(../images/frame.png) no-repeat top right;
+  display: flex;
+  background-size: 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.About_text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+  background: url(../images/Frames.png) no-repeat bottom left;
+}
+.About_text h2{
+  display: flex;
+  padding: 10px; 
+  justify-content: center;
+  font-size: 40px;
+} 
+.About_text p{
+  display: flex;
+  padding: 15px 35px;
+  text-align: center;
+  font-size: 21px;
+}
+.About_text button{
+   background-color: #36b37e;
+  color:#fff;
+  border: none;
+  padding: 7px 8px;
+  font-size: 18px;
+}
+.About-cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.About-card{
+ border-radius: 8px;
+  background-color: #ebf0ee;
+  width: 327px;
+  height: 400px;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.About-card h3{
+font-size:30px ;
+
+}
+.About-card ul{
+      display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.About-card ul li{
+  background-color: #fff;
+  padding: 10px;
+  color: #36b37e;
+  border-radius: 5px;
+}
+.contact {
+  align-items: center;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.contact_text p{
+  padding:20px 50px ;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: #172b4d;
+}
+.contact_form{
+   display: flex;
+   align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.contact_form form{
+     display: flex;
+   align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.contact_form form input{
+  width: 327px;
+  padding: 15px 10px;
+  border-radius: 15px;
+  border: 1px solid #ebf0ee;
+}
+.contact_form form textarea{
+    width: 327px;
+  padding: 5px 10px 90px 10px;
+  border-radius: 8px;
+  border:1px solid #36b37e ;
+}
+.contact_form button{
+   background-color: #36b37e;
+  color:#fff;
+  border: none;
+  padding: 7px 8px;
+  font-size: 18px;
+}
+.contact_form a{
+ text-decoration: none;
+ color: #172b4d;
+}
+
+footer{
+    display: flex;
+  gap: 20px;
+  list-style: none;
+  align-items: center;
+  flex-direction: column;
+    padding: 30px 0;
+}
+footer ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  align-items: center;
+}
+
+footer ul li a img {
+  width: 20px;
+}
+footer p{
+padding: 10px 50px;
+background-color: #172b4d;
+}
