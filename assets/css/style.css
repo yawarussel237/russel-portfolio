@@ -218,9 +218,9 @@ font-size:30px ;
   border-radius: 5px;
 }
 .contact {
+  display: flex;
   align-items: center;
   gap: 20px;
-  display: flex;
   flex-direction: column;
   justify-content: center;
 
@@ -313,4 +313,100 @@ gap: 10px;
   padding: 15px;
 }
 }
+@media (min-width:1024px) {
+  .home{
+    background: url(../images/desktop-home-back.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0;
+  }
+  .home h{
+    font-size: 50px;
+  }
+  .home p{
+    font-size: 30px;
+  }
+  .mobile_menu{
+    display: none;
+  }
+  nav{
+    display: flex;
+      justify-content: center;
+    align-items: center;
+  }
+  .desktop_menu{
+    display: flex;
+     justify-content: center;
+    align-items: center;
+  }
+  .desktop_menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+  }
+  .About-cards{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+align-items: center;
+justify-content: center;
+gap: 10px; 
+}
+.project_cards{
+  display: grid;
+grid-template-columns: repeat(3,1fr);
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+  header {
+  display: flex;
+  padding: 10px;
+ align-items: center;
+ justify-content: space-between;
+ width: 60%;
+}
+.project_headind h2{
+  font-size: 70px;
+  font-weight: 400;
+}
+.contact{
+  flex-direction: row;
+  background-size: 40px;
+gap: 0;
+  background: url(../images/dek-cont-left.jpg) no-repeat  bottom left, url(../images/desk-cont-mid.jpg) no-repeat bottom, url(../images/desk-cont-right.jpg) no-repeat bottom right;
+justify-content: center;
+align-items: center;
+margin: 20px  10px 4;
+padding: 40px 0 200px 0 ;
+}
+.contact_form{
+ justify-content: center;
+}
+.contact_text p{
+ width: 600px;
+ padding: 60px;
+ justify-content: center;
+}
+footer{
+  display: none;
+}
+.About{
+  background: url(../images/desk-back-mid-right.jpg) no-repeat top right;
+  background-size: 180px;
+}
+
+.About_text{
+
+  background: url(../images/desk-back-mid-left.jpg) no-repeat bottom left;
+    background-size: 180px;
+   
+}
+.About_text p{
+  padding: 40px 250px ;
+  font-size: 30px;
+  
+}
+ }
 
