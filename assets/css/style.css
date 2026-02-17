@@ -292,3 +292,25 @@ footer p{
 padding: 10px 50px;
 background-color: #172b4d;
 }
+
+@media(min-width:768px){
+.About-cards{
+  display: grid;
+grid-template-columns: repeat(2,1fr);
+align-items: center;
+justify-content: center;
+gap: 10px; 
+
+}
+.project_cards{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+.home p{
+  padding: 15px;
+}
+}
+
