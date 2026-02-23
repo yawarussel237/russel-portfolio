@@ -1,0 +1,28 @@
+{
+  "name": "html_css_linters",
+  "version": "1.0.0",
+  "description": "dans ce projets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yawarussel237/html_css_linters.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yawarussel237/html_css_linters/issues"
+  },
+  "homepage": "https://github.com/yawarussel237/html_css_linters#readme",
+  "devDependencies": {
+    "hint": "^7.1.13",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
