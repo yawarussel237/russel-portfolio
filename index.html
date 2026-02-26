@@ -8,19 +8,19 @@
 </head>
 <body>
  <header>
-    <a href="">Russel</a>
+    <h2>Russel</h2>
     <nav>
-        <div class="desktop_menu">
+        <div class="desktop_menu" id="desktop_menu">
             <ul>
-                <li><a href="#project">Portfolio</a></li>
-                 <li><a href="#project">About</a></li>
-                  <li><a href="#project">Contact</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#About">About</a></li>
+                 <li><a href="#Contact">Contact</a></li>
             </ul>
         </div>
-        <div class="mobile_menu">
-            <p></p>
-            <p></p>
-            <p></p>
+        <div class="mobile_menu" id="mobile_menu">
+            <p class="premiere"></p>
+            <p class="milieu"></p>
+            <p class="troisieme"></p>
         </div>
     </nav>
  </header>
@@ -42,20 +42,20 @@ don’t hesitate to contact me.</p>
 <!--project section-->
 <section class="project" id="project">
     <div class="project_heading">
-        <h2>my recent works</h2>
+        <h2>My Recent Works</h2>
         <p></p>
     </div>
     <div class="project_cards">
         
         <div class="project_card">
             <img src="" alt="">
-            <h3>multi-Post stories Gain+Glory</h3>
+            <h3>Multi-Post stories Gain+Glory</h3>
             <ul>
                 <li>Ruby on Rails</li>
                     <li>Css</li>
                     <li>HTML</li>
                 </ul>
-                <button>See Project</button>
+                <button type="button">See Project</button>
         </div>
         <div class="project_card">
             <img src="" alt="">
@@ -65,7 +65,7 @@ don’t hesitate to contact me.</p>
                     <li>Css</li>
                     <li>HTML</li>
                 </ul>
-              <button>See Project</button>
+              <button type="button">See Project</button>
         </div>
         <div class="project_card">
             <img src="" alt="">
@@ -76,7 +76,7 @@ don’t hesitate to contact me.</p>
                     <li>javascript</li>
                     <li>HTML</li>
                 </ul>
-               <button>See Project</button>
+               <button type="button">See Project</button>
         </div>
         <div class="project_card">
             <img src="" alt="">
@@ -86,7 +86,7 @@ don’t hesitate to contact me.</p>
                     <li>Css</li>
                     <li>HTML</li>
                 </ul>
-                 <button>See Project</button>
+                 <button type="button">See Project</button>
         </div>
         <div class="project_card">
             <img src="" alt="">
@@ -96,7 +96,7 @@ don’t hesitate to contact me.</p>
                     <li>Css</li>
                     <li>HTML</li>
                 </ul>
-                <button>See Project</button>
+                <button type="button">See Project</button>
         </div>
         <div class="project_card">
             <img src="" alt="">
@@ -106,7 +106,7 @@ don’t hesitate to contact me.</p>
                     <li>Css</li>
                     <li>HTML</li>
                 </ul>
-                <button>See Project</button>
+                <button type="button">See Project</button>
         </div>
     </div>
 </section>
@@ -116,7 +116,7 @@ don’t hesitate to contact me.</p>
         <h2>About Me</h2>
 
         <p>I can help you build a product, feature or website look through some of my work and experience!if you like what you see and have a project you need coded,don't hesitateto contact me.</p>
-        <button>Get My resume</button></div>
+        <button type="button">Get My resume</button></div>
         <div class="About-cards">
            <div class="About-card">
              <img src="./assets/images/languages.png"alt="">
@@ -155,18 +155,16 @@ don’t hesitate to contact me.</p>
 
 </section>
 <!--contact section-->
-<section class="contact">
+<section class="contact" id="Contact">
     <div class="contact_text">
         <p>I'm always interested in hearing about new projects,so if you'd like to chat please get in touch</p>
     </div>
     <div class="contact_form">
         <form action="">
-            <input type="text"
-            placeholder="Full name">
-            <input email="text"
-            placeholder="email address">
+            <input type="text" placeholder="Full name"   required>
+            <input type="email" required placeholder="email address">
             <textarea placeholder="Hey I’d like to connect to..."></textarea>
-        <button>Get in touch</button>
+        <button type="submit">Get in touch</button>
         </form>
         <a href="mailto:yawarussel237@gmail.com">yawarussel237@gmail.com</a>
     </div>
@@ -182,8 +180,7 @@ don’t hesitate to contact me.</p>
 </ul>
 <p></p>
  </footer>
+ <script src="./assets/js/script.js"></script>
  </body>
  </html>
  
-</body>
-</html>
